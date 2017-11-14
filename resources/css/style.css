@@ -1,4 +1,4 @@
-.header , .body1 , .body2 {
+.header , .body1 , .body2 , .copyright {
    font-family: Verdana , sans-serif;
 }
 .header , .body1 {
@@ -12,15 +12,18 @@
   font-weight: 300;
   font-size: 42px;
 }
-.body2 {
-  font-size: 21px;
+.body2 , .copyright {
   color: gray;
+  font-size: 21px;
 }
-a , .link {
+a {
   color: aquamarine;
   font-size: 20px;
 }
 html {
   background-color: black;
   text-align: center;
+}
+.copyright {
+  text-align: right;
 }
